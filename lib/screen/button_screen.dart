@@ -80,6 +80,33 @@ class ButtonScreen extends StatelessWidget {
                 },));
             }, child: Text("Row 실습")),
 
+            SizedBox(height: 10),
+
+            ElevatedButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(
+                builder: (context) {
+                  return TextScreen();
+                },));
+            }, child: Text("Text")),
+
+            SizedBox(height: 10),
+
+            ElevatedButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(
+                builder: (context) {
+                  return TextPracticeScreen();
+                },));
+            }, child: Text("Text 실습")),
+
+             SizedBox(height: 10),
+
+            ElevatedButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(
+                builder: (context) {
+                  return ImageScreen();
+                },));
+            }, child: Text("Image")),
+
 
 
           ],
