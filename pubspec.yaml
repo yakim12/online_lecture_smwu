@@ -1,0 +1,31 @@
+name: online_lecture_smwu
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  get: ^4.6.6
+  provider: ^6.1.2
+  intl: ^0.20.1
+  fluttertoast: ^8.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/commerce/
